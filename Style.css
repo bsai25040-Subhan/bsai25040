@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #f4c542;
+}
+
+/* HERO SECTIONS WITH IMAGES */
+.hero {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about-us {
+    background-image: url('https://i.imgur.com/4Xh5aOK.jpg');
+}
+
+.products-banner {
+    background-image: url('https://i.imgur.com/oU0JZxQ.jpg');
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background: #f4c542;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* PRODUCT PAGE STYLES */
+.page-title {
+    margin-top: 20px;
+}
+
+.product-box {
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px gray;
+    text-align: center;
+}
+
+.product-box img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* CONTACT PAGE */
+.contact-box {
+    background: white;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px gray;
+    text-align: center;
+}
+
+.social-icon {
+    width: 60px;
+    margin: 10px;
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+section {
+    padding: 20px 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ffcc00;
+    color: black;
+}
